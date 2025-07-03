@@ -1,3 +1,7 @@
+video expricativo: acesse:
+
+https://drive.google.com/file/d/1glZKs7A-mimGFEd8Acz4TDFCJE829T_X/view?usp=sharing
+
 PREFERENCIAS:
 
  Softwares necessários que precisam ser instalados antes dos passos:
