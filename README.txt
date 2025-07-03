@@ -42,10 +42,10 @@ aperte o botão direito e selecione para abrir com o visual studeo code
 
 identifique estas linhas
 --------------------------------
-  host: "localhost",           /
-  user: "root",                / 
-  password: "",                /
-  database: "cafeteria",       /
+  host: "localhost",           
+  user: "root",                
+  password: "",                
+  database: "cafeteria",       
 --------------------------------
 
 modifique o user e passaword caso voce tenha colocado outro nome no user, retire o root o coloque o usuario definido por você
@@ -58,22 +58,22 @@ após isso: crie um arquivo
 e cole este código abaixo:
 
 ------------------------------------------------------
-                                                      /
--- Cria o banco de dados                              /
-CREATE DATABASE IF NOT EXISTS cafeteria;              /
-USE cafeteria;                                        /
-                                                      /
--- Cria a tabela de produtos                          /
-CREATE TABLE IF NOT EXISTS produtos (                 /
-    id INT AUTO_INCREMENT PRIMARY KEY,                /
-    nome VARCHAR(100) NOT NULL,                       /
-    descricao TEXT,                                   /       
-    preco DECIMAL(10,2),                              /             
-    imagem VARCHAR(255)                               /    
-);                                                    / 
-                                                      /     
-                                                      /
-______________________________________________________/
+                                                      
+-- Cria o banco de dados                              
+CREATE DATABASE IF NOT EXISTS cafeteria;              
+USE cafeteria;                                       
+                                                      
+-- Cria a tabela de produtos                          
+CREATE TABLE IF NOT EXISTS produtos (                 
+    id INT AUTO_INCREMENT PRIMARY KEY,                
+    nome VARCHAR(100) NOT NULL,                       
+    descricao TEXT,                                          
+    preco DECIMAL(10,2),                                           
+    imagem VARCHAR(255)                                  
+);                                                     
+                                                           
+                                                      
+______________________________________________________
 
 após isso aperte na simbolo de "raio" para executar o codigo e criar o banco de dados
 ---------------------------------------------------------------------------------------
