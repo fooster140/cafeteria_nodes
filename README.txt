@@ -2,6 +2,10 @@ PREFERENCIAS:
 
  Softwares necessários que precisam ser instalados antes dos passos:
 -------------------------------------------------------------------
+winrar
+
+disponível em : https://www.win-rar.com/download.html?&L=9
+-------------------------------------------------------------------
 node.js
 disponível em: https://nodejs.org/pt
 -------------------------------------------------------------------
@@ -14,9 +18,13 @@ Visual Studeo Code
 disponível em: https://code.visualstudio.com
 --------------------------------------------------------------------
 Passo 1
-crie uma pasta com o nome " cafeteria_node " em users/seu_usuario/documentos 
-baixe os arquivos dispobilizados no github na pasta 
+crie uma pasta com o nome " cafeteria_nodes " em users/seu_usuario/documentos 
+baixe os arquivos dispobilizados no github em zip
+extraia a pasta em documetos
 
+se a pasta estiver com nome diferente 
+algo como cafeteria_nodes-master
+renomeie para " cafeteria_nodes "
 ------------------------------------------------------------------------------------------
 
 Passo 2:
@@ -95,7 +103,7 @@ primeiro precisa ser instalado as depedencias e pacotes do node
 
 abra a pasta selecionada utilizando o codigo:
 ---------------------------------------/        
-cd documents\cafeteria_node            /
+cd documents\cafeteria_nodes            /
 ---------------------------------------/
 
 após isso utilize o codigo:
