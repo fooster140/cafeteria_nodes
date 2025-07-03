@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>Editar Produto</title>
+</head>
+<body>
+  <h1>Editar Produto</h1>
+  <form action="/edit/<%= produto.id %>" method="POST" enctype="multipart/form-data">
+    <input type="text" name="nome" value="<%= produto.nome %>" required><br>
+    <textarea name="descricao"><%= produto.descricao %></textarea><br>
+    <input type="number" name="preco" value="<%= produto.preco %>" required step="0.01"><br>
+    <input type="file" name="imagem"><br>
+    <button type="submit">Atualizar</button>
+  </form>
+</body>
+</html>

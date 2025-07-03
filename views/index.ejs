@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <h1>Produtos</h1>
+
+  <a class="adicionar" href="/add">➕ Adicionar Produto</a>
+
+  <div class="produtos">
+    <% produtos.forEach(produto => { %>
+      <div class="produto">
+        <img src="/uploads/<%= produto.imagem %>" alt="<%= produto.nome %>">
+        <h3><%= produto.nome %></h3>
+        <p>R$ <%= parseFloat(produto.preco).toFixed(2) %></p>
+
+        <div class="botoes">
+          <a href="/edit/<%= produto.id %>">Editar</a>
+          <a href="/delete/<%= produto.id %>" onclick="return confirm('Tem certeza que deseja excluir este produto?')">Excluir</a>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>
+
